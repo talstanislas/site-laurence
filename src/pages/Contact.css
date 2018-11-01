@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+}
+
+.contactPicture {
+  width: 900px;
+  height: 450px;
+  margin-top: 90px;
+}
+
+.contactInfos {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.contactMail {
+  margin-top: 15px;
+}
+
+.contactName {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.navbar {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}

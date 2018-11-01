@@ -1,0 +1,67 @@
+.container {
+}
+
+.campagnePicture {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 100px;
+  margin-left: 14.5%;
+}
+
+.picture {
+  width: 290px;
+  height: 290px;
+  opacity: 1;
+  margin-top: 100px;
+}
+
+.overlay {
+  opacity: 0;
+}
+
+.wrapper {
+  width: 290px;
+  height: 290px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.picture:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.campagnTitle {
+  position: relative;
+  left: 150px;
+  top: -200px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+  z-index: -1;
+}
+
+.campagnDescription {
+  position: relative;
+  left: 150px;
+  top: -170px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+  z-index: -1;
+  font-size: 12px;
+  width: 150px;
+}
+
+@media screen AND (max-width: 1120px) {
+}

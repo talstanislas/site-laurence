@@ -1,0 +1,65 @@
+.agencyPage {
+  text-align: center;
+}
+
+.logo {
+  width: 920px;
+  height: 450px;
+  padding-bottom: 25px;
+  margin-top: 90px;
+}
+
+.second {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.secondPic {
+  width: 450px;
+  height: 300px;
+  color: black;
+}
+
+.text {
+  width: 430px;
+  height: 300px;
+}
+
+.second > .text {
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.second > .text > div {
+  margin-top: 90px;
+}
+
+.barre {
+  align-items: center;
+  width: 920px;
+  height: 1px;
+  border-bottom: 1px solid black;
+  margin-left: 14%;
+  margin-bottom: 15px;
+  margin-top: 12px;
+}
+
+.thirdText {
+  padding-top: 30px;
+  text-align: justify;
+  margin-bottom: 100px;
+  width: 850px;
+  margin-left: 17%;
+}
+
+.thirdPic {
+  width: 920px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.second > .text > div {
+  margin-top: 70px;
+}
